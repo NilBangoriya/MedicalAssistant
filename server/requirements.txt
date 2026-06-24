@@ -29,8 +29,7 @@ pydantic
 requests
 tqdm
 
-# Logging (optional but recommended)
-loguru
+
 
 
 
