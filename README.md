@@ -2,7 +2,7 @@
 
 A Retrieval-Augmented Generation (RAG) chatbot that lets users upload medical PDFs and ask natural-language questions about them. The system retrieves the most relevant passages from the uploaded documents and uses an LLM to generate grounded, context-only answers — it explicitly refuses to answer when the documents don't contain the information, rather than guessing.
 
-**Live demo:** [Streamlit Client](#) · **API:** https://medicalassistancee.stramlit.app
+**Live demo:** [Streamlit Client](#) · **API:** https://medicalassistancee.streamlit.app
 
 
 ---
