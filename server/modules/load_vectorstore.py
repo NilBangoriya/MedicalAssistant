@@ -21,7 +21,7 @@ UPLOAD_DIR="./uploaded_docs"
 os.makedirs(UPLOAD_DIR,exist_ok=True)
 
 
-# initialize pinecone instance
+# initialize pinecone instancef
 pc=Pinecone(api_key=PINECONE_API_KEY)
 spec=ServerlessSpec(cloud="aws",region=PINECONE_ENV)
 existing_indexes=[i["name"] for i in pc.list_indexes()]
